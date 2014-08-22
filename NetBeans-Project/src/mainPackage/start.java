@@ -279,8 +279,8 @@ public class start{
 		try {
             // Sets the width of the display to 640 and the height to 480
             Display.setDisplayMode(new DisplayMode(alternativeCommons.WINDOW_WIDTH, alternativeCommons.WINDOW_HEIGHT));
-            // Sets the title of the display to "Jump and Run Builder"
-            Display.setTitle("Jump and Run");
+            // Sets the title of the display to "Flappy Bird Clone"
+            Display.setTitle("Flappy Bird Clone");
             // Creates and shows the display
             Display.create();
         } catch (LWJGLException e) {
