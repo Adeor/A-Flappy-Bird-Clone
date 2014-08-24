@@ -1,5 +1,5 @@
 package mainPackage;
-
+//test2
 import static org.lwjgl.opengl.GL11.GL_BLEND;
 import static org.lwjgl.opengl.GL11.GL_COLOR_BUFFER_BIT;
 import static org.lwjgl.opengl.GL11.GL_MODELVIEW;
@@ -104,7 +104,7 @@ public class start{
 					if ( saeulen.get(i).getYkoordown()<=player.getY_Koor()+alternativeCommons.PLAYER_HEIGHT ||
 						 saeulen.get(i).getHeightUp()>=player.getY_Koor() ) {
 							System.out.println("GAME OVER mit Score: "+sAGO );
-					    	readAndWriteScore.write(""+sAGO);
+					    	//readAndWriteScore.write(""+sAGO); temporary disabled
 					    	firstGame = false;
 							return resetGame();
 					}
