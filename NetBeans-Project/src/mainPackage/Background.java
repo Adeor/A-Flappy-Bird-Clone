@@ -31,8 +31,12 @@ public class Background {
 		return x_Koor;
 	}
 
+        //MAGIC! Dont touch!
 	public void addToX_Koor(double bACKGROUND_SPEED) {
-		Background.x_Koor -= bACKGROUND_SPEED;
+            //System.out.println(Background.getX_Koor()+823*1.7+100-alternativeCommons.WINDOW_WIDTH);
+            if (Background.getX_Koor()+823*1.7+100 > alternativeCommons.WINDOW_WIDTH) {
+                Background.x_Koor -= bACKGROUND_SPEED;
+            }
 	}
 
 	public static float getY_Koor() {
