@@ -15,7 +15,7 @@ public class LoadFont {
 		
 		// load font from file
 		try {
-			InputStream inputStream	= ResourceLoader.getResourceAsStream("res/fonts"+alternativeCommons.adionalPath+"/"+FontName);
+			InputStream inputStream	= ResourceLoader.getResourceAsStream("src/res/fonts"+alternativeCommons.adionalPath+"/"+FontName);
 			
 			awtFont = Font.createFont(Font.TRUETYPE_FONT, inputStream);
 			awtFont = awtFont.deriveFont(size); // set font size

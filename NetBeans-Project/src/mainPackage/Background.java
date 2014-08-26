@@ -46,7 +46,7 @@ public class Background {
 	
 	public Background() {
 		try {
-			texture = TextureLoader.getTexture("PNG", new FileInputStream(new File(ResourceLoader.getResource("res/images"+alternativeCommons.adionalPath+"/background.png").toURI())));
+			texture = TextureLoader.getTexture("PNG", new FileInputStream(new File(ResourceLoader.getResource("src/res/images"+alternativeCommons.adionalPath+"/background.png").toURI())));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -18,7 +18,7 @@ public class readAndWriteScore {
 	static String[] read(){
         // eine Parser-Klasse anlegen
         SAXBuilder dom = new SAXBuilder();
-        scoresFile = new File("res/XML/scores.xml");
+        scoresFile = new File("src/res/XML/scores.xml");
         
         if (!scoresFile.exists()) {
         	//creat file! TODO
@@ -57,7 +57,7 @@ public class readAndWriteScore {
 
         // das Dokument einlesen
 		try {
-			doc = dom.build(new File("res/XML/scores.xml"));
+			doc = dom.build(new File("src/res/XML/scores.xml"));
 		} catch (JDOMException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -78,7 +78,7 @@ public class readAndWriteScore {
         // in eine XML-Datei ausgeben
         FileWriter fw = null;
 		try {
-			fw = new FileWriter("res/XML/scores.xml");
+			fw = new FileWriter("src/res/XML/scores.xml");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -40,7 +40,7 @@ public class LoadAnimation{
     	//get buffered image
         File imgFile = null;
 		try {
-			imgFile = new File(ResourceLoader.getResource("res/images"+alternativeCommons.adionalPath+"/"+AnimationName).toURI());
+			imgFile = new File(ResourceLoader.getResource("src/res/images"+alternativeCommons.adionalPath+"/"+AnimationName).toURI());
 		} catch (URISyntaxException e1) {
 			// TODO Auto-generated catch block 
 			e1.printStackTrace();

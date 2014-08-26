@@ -39,8 +39,8 @@ public class Saeule{
 		yKoorDown = heightUp+alternativeCommons.LUCKENGROSSE;	//100 = guter wert statt alternativeCommons.LUCKENGROSSE
 		
 		try {
-			texture = TextureLoader.getTexture("PNG", new FileInputStream(new File(ResourceLoader.getResource("res/images"+alternativeCommons.adionalPath+"/texture.png").toURI())));
-			top = TextureLoader.getTexture("PNG", new FileInputStream(new File(ResourceLoader.getResource("res/images"+alternativeCommons.adionalPath+"/top.png").toURI())));
+			texture = TextureLoader.getTexture("PNG", new FileInputStream(new File(ResourceLoader.getResource("src/res/images"+alternativeCommons.adionalPath+"/texture.png").toURI())));
+			top = TextureLoader.getTexture("PNG", new FileInputStream(new File(ResourceLoader.getResource("src/res/images"+alternativeCommons.adionalPath+"/top.png").toURI())));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

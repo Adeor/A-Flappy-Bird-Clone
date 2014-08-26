@@ -32,7 +32,7 @@ public class UI {
 	
 	public UI(float x, float y, String filename, boolean ingame, UIGroup UIg) {
 		try {
-			texture = TextureLoader.getTexture("PNG", new FileInputStream(new File(ResourceLoader.getResource("res/UI"+alternativeCommons.adionalPath+"/"+filename).toURI())));
+			texture = TextureLoader.getTexture("PNG", new FileInputStream(new File(ResourceLoader.getResource("src/res/UI"+alternativeCommons.adionalPath+"/"+filename).toURI())));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

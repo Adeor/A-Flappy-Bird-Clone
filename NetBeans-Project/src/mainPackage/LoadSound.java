@@ -15,7 +15,7 @@ public class LoadSound {
         try {
 		    // you can play wavs by loading the complete thing into 
 		    // a sound
-		    wavEffect = AudioLoader.getAudio("WAV", ResourceLoader.getResourceAsStream("res/sounds"+alternativeCommons.adionalPath+"/"+SoundName));
+		    wavEffect = AudioLoader.getAudio("WAV", ResourceLoader.getResourceAsStream("src/res/sounds"+alternativeCommons.adionalPath+"/"+SoundName));
 	        } catch (IOException e) {
 		    e.printStackTrace();
         }
