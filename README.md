@@ -3,10 +3,14 @@ A-Flappy-Bird-Clone
 
 I made a remake with the libGDX-Framework and it works better now.
 
-binaries:
+installer:
 
-* [Windows](https://github.com/Adeor/A-Flappy-Bird-Clone/raw/master/binaries/FlappyAnus-windows.exe)
+* [windows] (https://github.com/Adeor/A-Flappy-Bird-Clone/raw/master/binaries/installer/FlappyAnus.exe)
 
-* [desktop (linux, mac, windows) ]       (https://github.com/Adeor/A-Flappy-Bird-Clone/raw/master/binaries/FlappyAnus-universal.jar)
+* [android] (https://github.com/Adeor/A-Flappy-Bird-Clone/raw/master/binaries/installer/FlappyAnus-android.apk)
 
-* [android] (https://github.com/Adeor/A-Flappy-Bird-Clone/raw/master/binaries/FlappyAnus-android.apk)
+raw executables:
+
+* [windows] (https://github.com/Adeor/A-Flappy-Bird-Clone/raw/master/binaries/raw%20executeables/FlappyAnus-windows.exe)
+
+* [desktop (linux, mac, windows) ]       (https://github.com/Adeor/A-Flappy-Bird-Clone/raw/master/binaries/raw%20executeables/FlappyAnus-universal.jar)
