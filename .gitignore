@@ -61,3 +61,6 @@ build/
 
 ## OS Specific
 .DS_Store
+
+#Dont download the binaries
+bin/
